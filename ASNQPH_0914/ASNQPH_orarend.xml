@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ASNQPH_Orarend>
+	<ora id = "01" tipus ="Eloadas">
+		<targy>Web_tech</targy>
+		<idopont>
+			<nap></nap>Hetfo
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>A2</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Mernokinformatika</szak>
+	</ora>
+	
+	<ora id = "02" tipus ="Eloadas">
+		<targy>Szoft_teszteles</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>A2</helyszin>
+		<oktato>Hornyak Oliver</oktato>
+		<szak>Mernokinformatika</szak>
+	</ora>
+	
+	<ora id = "03" tipus ="Eloadas">
+		<targy>Integralt_Vallalati_Rendszerek</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>16</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>A2</helyszin>
+		<oktato>Samad</oktato>
+		<szak>Mernokinformatika</szak>
+	</ora>
+	
+	<ora id = "04" tipus ="Eloadas">
+		<targy>Mesterseges_int</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>9</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>A1</helyszin>
+		<oktato>Tamas_Judit</oktato>
+		<szak>Mernokinformatika</szak>
+	</ora>	
+		<ora id = "05" tipus ="Eloadas">
+		<targy>XML</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>A1</helyszin>
+		<oktato>Bednarik_Laszlo</oktato>
+		<szak>Mernokinformatika</szak>
+	</ora>
+</ASNQPH_Orarend>
