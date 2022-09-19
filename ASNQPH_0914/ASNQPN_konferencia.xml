@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+	<cim>Valahol</cim>
+	<hallgatok>
+		<hallgato>
+			<nev>Bartók-Balog Péter</nev>
+			<lakcim>Sehol</lakcim>
+		</hallgato>
+	</hallgatok>
+	<helyszin>Miskolc</helyszin>
+	<eloado>
+		<nev>Bednarik László</nev>
+		<adoszam>133131</adoszam>
+		<lakcim>Miskolc</lakcim>
+	</eloado>
+	<datum>2022.11.23</datum>
+</konferencia>
