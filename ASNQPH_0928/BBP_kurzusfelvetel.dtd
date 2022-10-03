@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT BBP_kurzusfelvetel (hallgato, kurzusok)>
+	
+	<!ATTLIST BBP_kurzusfelvetel
+		tanev CDATA #Required
+		egyetem CDATA #Fixed "ME"
+	>
+	
+<!ELEMENT hallgato(hnev, szulev,szak)>
+
+	<!ATTLIST hallgato id CDATA #Required >
+		<!ELEMENT hnev (#PCDATA)> 
+		<!ELEMENT szulev (#PCDATA)>
+		<!ELEMENT szak (#PCDATA)>
+		
+<!ELEMENT kurzusok(kurzus)>
+	
+	<!ATTLIST kurzus id CDATA #REQUIRED>
+		<!ELEMENT kurzusnev (#PCDATA)>
+		<!ELEMENT kredit (#PCDATA)>
+		<!ELEMENT hely (#PCDATA)>  
+		<!ELEMENT idopont (#PCDATA)>  
+		<!ELEMENT oktato (#PCDATA)> 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BBP_MODELL A = " " B = " " C= " " A_B = " ">
+	<A ID = "Aa" >
+		<Ab>
+			<Abx></Abx>
+			<Aby></Aby>
+		</Ab>
+		<Ac>
+			<Acd></Acd>
+			<Ace></Ace>
+		</Ac>
+	</A>
+	
+	<B  ID = "BA" IDREF = "Bc">
+		<Bb>
+			<Bbx></Bbx>
+			<Bby></Bby>
+		</Bb>
+	</B>
+	
+	<C ID = "Ca">
+		<Cb></Cb>
+	</C>
+	
+	<A_B IDREF1 = "A_B_a" IDREF2 = "A_B_b">
+		<A_Bc></A_Bc>
+	</A_B>	
+</BBP_MODELL>

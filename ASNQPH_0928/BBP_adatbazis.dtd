@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT BBP_adatbazis	(DOLGOZO)>
+	
+	<!ELEMENT DOLGOZO (KOD, NEV, FIZETES)>
+		<!ATTLIST DOLGOZO KOD CDATA #REQUIRED>
+			<!ELEMENT NEV (#PCDATA)>
+			<!ELEMENT FIZETES (#PCDATA)>   
