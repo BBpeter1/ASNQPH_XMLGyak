@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"></xs:schema>
+
+    <xs:simpleType name="oraTipus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="eloadas"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="idTipus">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <xs:element name="BBP_orarend">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ora"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="idTipus" use="required"/>
+			<xs:attribute name="tipus" type="oraTipus" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:element name="ora">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="targy" type="xs:string"/>
+				<xs:element name="idopont" type="xs:date">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nap" type="xs:string"/>
+                            <xs:element name="tol" type="xs:integer"/>
+                            <xs:element name="ig" type="xs:integer"/>  
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+				<xs:element name="helyszin" type="xs:string"/>
+                <xs:element name="oktato" type="xs:string"/>
+                <xs:element name="szak" type="xs:string"/>
+			</xs:all>
+			<xs:attribute name="id" type="idTipus" use="required"/>
+            <xs:attribute name="tipus" type="oraTipus" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
