@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas xmlns:xs ="http://www.w3.org/2001/XMLSchema"  xsi:noNamespaceSchemaLocation = "XSD_ASQNPH.xsd">
+
+	<etterem ekod = "e1">
+		<nev>Trófea</nev>
+		<cim>
+			<varos>Budapest</varos>
+			<utca>Visegradi</utca>
+			<hazszam>13</hazszam>
+		</cim>
+		<csillag>4</csillag>	
+	</etterem>
+	
+	<etterem ekod = "e2">
+		<nev>Gundel</nev>
+		<cim>
+			<varos>Budapest</varos>
+			<utca>Gundel Karoly</utca>
+			<hazszam>4</hazszam>
+		</cim>
+		<csillag>5</csillag>	
+	</etterem>
+	
+	<etterem ekod = "e3">
+		<nev>Kocka</nev>
+		<cim>
+			<varos>Kazincbarcika</varos>
+			<utca>Valahol</utca>
+			<hazszam>10</hazszam>
+		</cim>
+		<csillag>2</csillag>	
+	</etterem>
+	
+	<foszakacs fkod = "f1" e_f = "e1">
+		<nev>Havas Peter</nev>
+		<eletkor>35</eletkor>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Institut Paul Bocause</vegzettseg>
+	</foszakacs>
+	
+	<foszakacs fkod = "f2" e_f = "e2">
+		<nev>Nagy Károly</nev>
+		<eletkor>30</eletkor>
+		<vegzettseg>Szakközépiskola</vegzettseg> 
+	</foszakacs>
+	
+	<foszakacs fkod = "f3" e_f = "e3">
+		<nev>Havas Peter</nev>
+		<eletkor>35</eletkor>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Institut Paul Bocause</vegzettseg>
+	</foszakacs>
+	
+	<szakacs szkod = "sz1" e_sz ="e1">
+		<nev>Ötlet Elek</nev>
+		<reszleg>Saucier</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod = "sz2" e_sz ="e2">
+		<nev>Kormos Sándor</nev>
+		<reszleg>Saucier</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod = "sz3" e_sz ="e3">
+		<nev>Szabó Zoltán</nev>
+		<reszleg>Saucier</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+	</szakacs>
+	
+	<gyakornok gykod ="gy1" e_gy = "e1">
+		<nev>Bordás Dávid</nev>
+		<gyakorlat>
+			<kezdete>2021.08.20</kezdete>
+			<idotartama>2 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délelőtt</muszak>
+		<muszak>Este</muszak>	
+	</gyakornok>
+	
+	<gyakornok gykod ="gy2" e_gy = "e2">
+		<nev>Kovács Péter</nev>
+		<gyakorlat>
+			<kezdete>2020.08.20</kezdete>
+			<idotartama>3 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délután</muszak>
+		<muszak>Este</muszak>	
+	</gyakornok>
+	
+	<gyakornok gykod ="gy3" e_gy = "e3">
+		<nev>Kis István</nev>
+		<gyakorlat>
+			<kezdete>2021.07.11</kezdete>
+			<idotartama>1 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délelőtt</muszak>	
+	</gyakornok>
+	
+	<vendeg vkod="v1">
+		<nev>Fekete Péter</nev>
+		<eletkor>21</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Márton</utca>
+			<hazszam>17</hazszam>
+		</cim>
+	</vendeg>
+	
+	<vendeg vkod="v2">
+		<nev>Kék Péter</nev>
+		<eletkor>30</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Széchényi</utca>
+			<hazszam>20</hazszam>
+		</cim>
+	</vendeg>
+	
+	<vendeg vkod="v3">
+		<nev>Albók Gábor</nev>
+		<eletkor>18</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Rákóczi</utca>
+			<hazszam>35</hazszam>
+		</cim>
+	</vendeg>
+	
+	<rendeles e_v_e ="e1" e_v_v ="v1">
+		<osszeg>9000</osszeg>
+		<etel>Steak</etel>
+	</rendeles>
+	
+	<rendeles e_v_e ="e2" e_v_v ="v2">
+		<osszeg>5000</osszeg>
+		<etel>Főzelék</etel>
+	</rendeles>
+	
+	<rendeles e_v_e ="e3" e_v_v ="v3">
+		<osszeg>3000</osszeg>
+		<etel>Csirkemell</etel>
+	</rendeles>
+	
+</vendeglatas>
