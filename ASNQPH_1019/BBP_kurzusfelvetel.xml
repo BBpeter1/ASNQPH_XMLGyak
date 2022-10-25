@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BBP_kurzusfelvetel tanev="2022_2023 I." egyetem="ME">
+
+	<hallgato id = "ASNQPH_ME">
+		<hnev>Bartók-Balog Péter</hnev>
+		<szulev>2001-05-27</szulev>
+		<szak evf= "5">Mérnökinformatikus</szak>
+	</hallgato>
+	
+	<kurzusok>
+		<kurzus id = "GEIAL332-B">
+			<kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+			<kredit>5</kredit>
+			<hely>XXXII.</hely>
+			<idopont>Kedd 12:00-13:30</idopont>
+			<oktato>Dr. Bednarik László</oktato>
+		</kurzus>
+		<kurzus id= "GEIAL322-B" nyelv ="spanyol">
+			<kurzusnev>Adatbázis Rendszerek I.</kurzusnev>
+			<kredit>5</kredit>
+			<hely>Inf101</hely>
+			<idopont>Kedd 8:00-9:30</idopont>
+			<oktato>Dr. Kovács László</oktato>
+		</kurzus>
+	</kurzusok>
+	
+</BBP_kurzusfelvetel>
