@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="DOMASNQPH">
+  <user id="1">
+    <firstname>Peter</firstname>
+    <lastname>Bartok-Balog</lastname>
+    <profession>C</profession>
+  </user>
+  <user id="2">
+    <firstname>Mate</firstname>
+    <lastname>Fekete</lastname>
+    <profession>Web</profession>
+  </user>
+  <user id="3">
+    <firstname>Bence</firstname>
+    <lastname>Firtko</lastname>
+    <profession>Java</profession>
+  </user>
+</users>
