@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nyilvantartas>
+
+<!-- Első példány létrehozása -->
+	<kiadok kiadoid = "1">
+		<nev>Legjobb Kiadó</nev>
+		<kiadaseve>1900</kiadaseve>
+	</kiadok>
+	
+	<konyvek kid = "1" kiadoid = "1">
+		<cim>Egy könyv</cim>
+		<ar>2500</ar>
+		<kategoria>Misztikus</kategoria>
+		<szerzo>Hegedűs Gábor</szerzo>
+	</konyvek>
+	
+	<O_K oid = "1" kid = "1">
+		<kiaddatum>2022.10.27</kiaddatum>
+		<visszdatum>2022.10.29</visszdatum>
+	</O_K>
+	
+	<olvasok oid = "1">
+		<veznev>Balog</veznev>
+		<keresztnev>Levente</keresztnev>
+		<kor>18</kor>
+		<telefonszam>06703325674</telefonszam>
+	</olvasok>
+	
+	<alkalmazott aid = "1" loginid = "1">
+		<nev>Kiss Eszter</nev>
+		<beosztas>Penztaros</beosztas>
+		<szulev>2001</szulev>
+	</alkalmazott>
+	
+	<rendszer loginid = "1">
+		<nev>Kiss</nev>
+		<jelszo>jelszo1</jelszo>
+	</rendszer>
+	
+	<!-- Második példány létrehozása -->
+	
+	<kiadok kiadoid = "2">
+		<nev>Kevesbe Jo Kiado</nev>
+		<kiadaseve>1970</kiadaseve>
+	</kiadok>
+	
+	<konyvek kid = "2" kiadoid = "2">
+		<cim>Masik Konyv</cim>
+		<ar>5000</ar>
+		<kategoria>Drama</kategoria>
+		<szerzo>Toth Miklos</szerzo>
+	</konyvek>
+	
+	<O_K oid = "2" kid = "2">
+		<kiaddatum>2022.09.13.</kiaddatum>
+		<visszdatum>2022.09.17</visszdatum>
+	</O_K>
+	
+	<olvasok oid = "2">
+		<veznev>Kovacs</veznev>
+		<keresztnev>Denes</keresztnev>
+		<kor>33</kor>
+		<telefonszam>06302324586</telefonszam>
+	</olvasok>
+	
+	<alkalmazott aid = "2" loginid = "2">
+		<nev>Varga Zsombor</nev>
+		<beosztas>Asszisztens</beosztas>
+		<szulev>1998</szulev>
+	</alkalmazott>
+	
+	<rendszer loginid = "2">
+		<nev>Kovacs</nev>
+		<jelszo>jelszo2</jelszo>
+	</rendszer>
+	
+	<!-- Harmadik példány létrehozása -->
+	
+	<kiadok kiadoid = "3">
+		<nev>Rossz Kiado</nev>
+		<kiadaseve>2011</kiadaseve>
+	</kiadok>
+	
+	<konyvek kid = "3" kiadoid = "3">
+		<cim>Harmadik Konyv</cim>
+		<ar>12000</ar>
+		<kategoria>Tortenelmi</kategoria>
+		<szerzo>Kantor Bela</szerzo>
+	</konyvek>
+	
+	<O_K oid = "3" kid = "3">
+		<kiaddatum>2022.08.23</kiaddatum>
+		<visszdatum>2022.09.01</visszdatum>
+	</O_K>
+	
+	<olvasok oid = "3">
+		<veznev>Gyuran</veznev>
+		<keresztnev>Elek</keresztnev>
+		<kor>23</kor>
+		<telefonszam>06207767854</telefonszam>
+	</olvasok>
+	
+	<alkalmazott aid = "3" loginid = "3">
+		<nev>Szabo Bence</nev>
+		<beosztas>Raktaros</beosztas>
+		<szulev>2000</szulev>
+	</alkalmazott>
+	
+	<rendszer loginid = "3">
+		<nev>Szabo</nev>
+		<jelszo>jelszo3</jelszo>
+	</rendszer>
+
+</nyilvantartas>
