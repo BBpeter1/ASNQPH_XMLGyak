@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nyilvantartas xmlns="XMLASNQPH">
+  <kiadok kiadoid="1">
+    <nev>Legjobb Kiadó</nev>
+    <kiadaseve>1900</kiadaseve>
+  </kiadok>
+  <kiadok kiadoid="2">
+    <nev>Kevesbe Jo Kiado</nev>
+    <kiadaseve>1970</kiadaseve>
+  </kiadok>
+  <kiadok kiadoid="3">
+    <nev>Rossz Kiado</nev>
+    <kiadaseve>2011</kiadaseve>
+  </kiadok>
+  <konyvek kiadoid="1" kid="1">
+    <cim>Egy Konyv</cim>
+    <ar>2500</ar>
+    <kategoria>Misztikus</kategoria>
+    <szerzo>Hegedus Gabor</szerzo>
+  </konyvek>
+  <konyvek kiadoid="2" kid="2">
+    <cim>Masik Konyv</cim>
+    <ar>5000</ar>
+    <kategoria>Drama</kategoria>
+    <szerzo>Toth Miklos</szerzo>
+  </konyvek>
+  <konyvek kiadoid="3" kid="3">
+    <cim>Harmadik Konyv</cim>
+    <ar>12000</ar>
+    <kategoria>Tortenelmi</kategoria>
+    <szerzo>Kantor Bela</szerzo>
+  </konyvek>
+  <O_K kid="1" oid="1">
+    <kiaddatum>2022.10.17</kiaddatum>
+    <kiadaseve>2022.10.29</kiadaseve>
+  </O_K>
+  <O_K kid="2" oid="2">
+    <kiaddatum>2022.09.13</kiaddatum>
+    <kiadaseve>2022.09.17</kiadaseve>
+  </O_K>
+  <O_K kid="3" oid="3">
+    <kiaddatum>2022.08.23</kiaddatum>
+    <kiadaseve>2022.09.01</kiadaseve>
+  </O_K>
+  <olvasok oid="1">
+    <veznev>Balog</veznev>
+    <keresztnev>Levente</keresztnev>
+    <kor>18</kor>
+    <telefonszam>06703325674</telefonszam>
+  </olvasok>
+  <olvasok oid="2">
+    <veznev>Kovacs</veznev>
+    <keresztnev>Denes</keresztnev>
+    <kor>33</kor>
+    <telefonszam>06302324586</telefonszam>
+  </olvasok>
+  <olvasok oid="3">
+    <veznev>Gyuran</veznev>
+    <keresztnev>Elek</keresztnev>
+    <kor>23</kor>
+    <telefonszam>06207767854</telefonszam>
+  </olvasok>
+  <alkalmazott aid="1" loginid="1">
+    <nev>Kiss Eszter</nev>
+    <beosztas>Penztaros</beosztas>
+    <szulev>2001</szulev>
+  </alkalmazott>
+  <alkalmazott aid="2" loginid="2">
+    <nev>Varga Zsombor</nev>
+    <beosztas>Asszisztens</beosztas>
+    <szulev>1998</szulev>
+  </alkalmazott>
+  <alkalmazott aid="3" loginid="3">
+    <nev>Szabo Bence</nev>
+    <beosztas>Raktaros</beosztas>
+    <szulev>2000</szulev>
+  </alkalmazott>
+  <rendszer loginid="1">
+    <nev>Kiss</nev>
+    <jelszo>jelszo1</jelszo>
+  </rendszer>
+  <kiadok kiadoid="2">
+    <nev>Kovacs</nev>
+    <kiadaseve>jelszo2</kiadaseve>
+  </kiadok>
+  <kiadok kiadoid="3">
+    <nev>Szabo</nev>
+    <kiadaseve>jelszo3</kiadaseve>
+  </kiadok>
+</nyilvantartas>
