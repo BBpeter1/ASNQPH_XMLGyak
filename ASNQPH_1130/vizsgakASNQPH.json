@@ -1,0 +1,65 @@
+{
+  "root": {
+    "_id": "F58KQ8",
+    "name": "vizsgak",
+    "vizsgak": {
+      "vizsga": [
+        {
+          "kurzus": "Adatbázisrendszerek II.",
+          "helyszin": "E12",
+          "idopont": {
+            "nap": "2022.06.07",
+            "tol": 10,
+            "ig": 14
+          },
+          "oktato": "Dr. Kovács László József",
+          "jegy": 3
+        },
+        {
+          "kurzus": "Biztonság és védelem a számítástechnikában",
+          "helyszin": "L103",
+          "idopont": {
+            "nap": "2022.06.16",
+            "tol": 11,
+            "ig": 13
+          },
+          "oktato": "Wagner György",
+          "jegy": 4
+        },
+        {
+          "kurzus": "Numerikus Analízis",
+          "helyszin": "T042",
+          "idopont": {
+            "nap": "2022.05.25",
+            "tol": 11,
+            "ig": 13
+          },
+          "oktato": "Dr. Földvári Attila József",
+          "jegy": 3
+        },
+        {
+          "kurzus": "Számítógépi grafika",
+          "helyszin": "A4/3",
+          "idopont": {
+            "nap": "2022.05.31",
+            "tol": 10,
+            "ig": 12
+          },
+          "oktato": "Dr. Juhász Imre",
+          "jegy": 3
+        },
+        {
+          "kurzus": "java programozás",
+          "helyszin": "L102",
+          "idopont": {
+            "nap": "2022.05.20",
+            "tol": 9,
+            "ig": 11
+          },
+          "oktato": "Szûcs Miklós",
+          "jegy": 3
+        }
+      ]
+    }
+  }
+}
