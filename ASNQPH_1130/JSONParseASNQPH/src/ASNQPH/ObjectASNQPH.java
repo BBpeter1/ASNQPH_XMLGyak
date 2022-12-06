@@ -14,7 +14,7 @@ public class ObjectASNQPH {
 		JSONObject Jobj = new JSONObject(); 	
 		JSONParser parser = new JSONParser();		
 		
-		try (Reader reader = new FileReader("vizsgakF58KQ8.json")) {
+		try (Reader reader = new FileReader("vizsgakASNQPH.json")) {
 	
 	        JSONObject jsonObject = (JSONObject) parser.parse(reader);	        
 	
