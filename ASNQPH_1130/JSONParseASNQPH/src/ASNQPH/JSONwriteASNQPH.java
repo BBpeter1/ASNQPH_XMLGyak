@@ -16,7 +16,7 @@ public class JSONwriteASNQPH {
 		
 		JSONObject root = new DOMXMLObject();
 		
-		root.put("_id", "F58KQ8");
+		root.put("_id", "ASNQPH");
 		root.put("name", "vizsgak");
 		
 		JSONObject vizsgak = new JSONObject();
@@ -111,7 +111,7 @@ public class JSONwriteASNQPH {
 	
 		try {
 	        
-	        FileWriter file = new FileWriter("vizsgakF58KQ8_out.json");
+	        FileWriter file = new FileWriter("vizsgakASNQPH_out.json");
 	        file.write(jsonText);
 	        file.close();
 	
