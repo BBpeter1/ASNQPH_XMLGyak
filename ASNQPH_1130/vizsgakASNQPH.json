@@ -1,62 +1,62 @@
 {
   "root": {
-    "_id": "F58KQ8",
+    "_id": "ASNQPH",
     "name": "vizsgak",
     "vizsgak": {
       "vizsga": [
         {
-          "kurzus": "Adatb·zisrendszerek II.",
+          "kurzus": "Adatb√°zisrendszerek II.",
           "helyszin": "E12",
           "idopont": {
             "nap": "2022.06.07",
             "tol": 10,
             "ig": 14
           },
-          "oktato": "Dr. Kov·cs L·szlÛ JÛzsef",
+          "oktato": "Dr. Kov√°cs L√°szl√≥ J√≥zsef",
           "jegy": 3
         },
         {
-          "kurzus": "Biztons·g Ès vÈdelem a sz·mÌt·stechnik·ban",
+          "kurzus": "Biztons√°g √©s v√©delem a sz√°m√≠t√°stechnik√°ban",
           "helyszin": "L103",
           "idopont": {
             "nap": "2022.06.16",
             "tol": 11,
             "ig": 13
           },
-          "oktato": "Wagner Gyˆrgy",
+          "oktato": "Wagner Gy√∂rgy",
           "jegy": 4
         },
         {
-          "kurzus": "Numerikus AnalÌzis",
+          "kurzus": "Numerikus Anal√≠zis",
           "helyszin": "T042",
           "idopont": {
             "nap": "2022.05.25",
             "tol": 11,
             "ig": 13
           },
-          "oktato": "Dr. Fˆldv·ri Attila JÛzsef",
+          "oktato": "Dr. F√∂ldv√°ri Attila J√≥zsef",
           "jegy": 3
         },
         {
-          "kurzus": "Sz·mÌtÛgÈpi grafika",
+          "kurzus": "Sz√°m√≠t√≥g√©pi grafika",
           "helyszin": "A4/3",
           "idopont": {
             "nap": "2022.05.31",
             "tol": 10,
             "ig": 12
           },
-          "oktato": "Dr. Juh·sz Imre",
+          "oktato": "Dr. Juh√°sz Imre",
           "jegy": 3
         },
         {
-          "kurzus": "java programoz·s",
+          "kurzus": "java programoz√°s",
           "helyszin": "L102",
           "idopont": {
             "nap": "2022.05.20",
             "tol": 9,
             "ig": 11
           },
-          "oktato": "Sz˚cs MiklÛs",
+          "oktato": "Sz≈±cs Mikl√≥s",
           "jegy": 3
         }
       ]
